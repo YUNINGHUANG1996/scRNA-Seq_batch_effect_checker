@@ -1,6 +1,9 @@
 # scRNA-Seq batch effect checker
 This is my mini_toolkit to check for batch effect for scRNA-Seq dataset
 
+Step 1: evaluate_batch_effects.py
+Step 2: apply_harmony_correction.py
+
     # Provide recommendation
     Overall batch effect score : 0-1 scale, higher means stronger batch effect
     if batch_effect_score < 0.3:
